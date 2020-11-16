@@ -1,0 +1,34 @@
+{
+  "name": "javascript-things",
+  "version": "1.0.0",
+  "description": "JavaScript code examples",
+  "main": "src/main.js",
+  "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarrrguez/javascript-things.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "César Rodríguez <cesar.rrguez@gmail.com> (https://cesarrrguez.github.io)",
+  "license": "MIT",
+  "homepage": "https://github.com/cesarrrguez/javascript-things#readme",
+  "bugs": {
+    "url": "https://github.com/cesarrrguez/javascript-things/issues",
+    "email": "cesar.rrguez@gmail.com"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  }
+}
