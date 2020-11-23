@@ -6,11 +6,14 @@ This repository contains _JavaScript_ code examples.
 
 ## Scripts
 
-- Functional programming
+- Functional Programming
 - Filter, Map, Reduce, Closures, Composition, Promises, Trampolines, Recursivity
 - Object Oriented Programming
 - Inheritance, Composition
-- API, JSON, Fetch, Axios
+- API Call, JSON, Fetch, Axios
+- Design Patterns
+- Dependency Injection, Observer, Iterator
+- Object, Entries, Keys, Values
 
 ## License
 
