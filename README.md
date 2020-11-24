@@ -14,6 +14,7 @@ This repository contains _JavaScript_ code examples.
 - Design Patterns
 - Dependency Injection, Observer, Iterator
 - Object, Entries, Keys, Values
+- Document Selectors
 
 ## License
 
