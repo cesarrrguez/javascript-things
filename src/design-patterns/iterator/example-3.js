@@ -16,7 +16,5 @@ const iterator = new Iterator(elements);
 
 while (iterator.hasNext()) {
   const element = iterator.next();
-  element().then((result) => {
-    console.log(result);
-  });
+  element().then((result) => console.log(result));
 }

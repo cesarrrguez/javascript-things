@@ -3,24 +3,16 @@ const axios = require('axios');
 // GET
 const getUsers = (url) => {
   axios.get(url).then(
-    (response) => {
-      console.log(response.data);
-    },
-    (error) => {
-      console.log(error);
-    }
+    (response) => console.log(response.data),
+    (error) => console.log(error)
   );
 };
 
 // POST
 const addUser = (url, user) => {
   axios.post(url, { user }).then(
-    (response) => {
-      console.log(response.data);
-    },
-    (error) => {
-      console.log(error);
-    }
+    (response) => console.log(response.data),
+    (error) => console.log(error)
   );
 };
 

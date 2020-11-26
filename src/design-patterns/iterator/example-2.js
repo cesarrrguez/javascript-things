@@ -1,13 +1,6 @@
 const Iterator = require('./iterator.js');
 
-const elements = [
-  () => {
-    console.log('Hello');
-  },
-  () => {
-    console.log('World');
-  },
-];
+const elements = [() => console.log('Hello'), () => console.log('World')];
 
 const iterator = new Iterator(elements);
 

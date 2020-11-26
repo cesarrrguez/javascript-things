@@ -17,9 +17,7 @@ class Subject {
 
   // Notify all observers
   notify(model) {
-    this.observers.forEach((observer) => {
-      observer.notify(model);
-    });
+    this.observers.forEach((observer) => observer.notify(model));
   }
 }
 
