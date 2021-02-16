@@ -1,8 +1,8 @@
-const x = 'Hello';
-
-const f = () => {
-  const y = 'World!';
-  console.log(x, y);
+const sum = (x) => {
+  return (y) => {
+    console.log(x, y);
+  };
 };
 
-f();
+const s = sum(1);
+s(2);
