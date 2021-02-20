@@ -37,5 +37,6 @@
     "lodash": "^4.17.20",
     "nodemailer": "^6.4.17",
     "safe-decimals": "^1.0.0",
+    "winston": "^3.3.3"
   }
 }
