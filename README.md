@@ -12,7 +12,7 @@ This repository contains _JavaScript_ code examples.
 - Class, Inheritance, Composition
 - API Call, JSON, Fetch, Axios
 - Asynchronous Calls
-- Algorithms
+- Algorithms, Problems
 - Design Patterns
 - Dependency Injection, Observer, Iterator
 - Object, Entries, Keys, Values
