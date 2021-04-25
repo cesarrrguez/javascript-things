@@ -23,7 +23,7 @@ This repository contains _JavaScript_ code examples.
 - Spread Operator
 - Type Converters
 - Literal Object
-- Prototype, Extension methods
+- Prototype, Extension methods, Arrow functions, Generator functions
 - Email
 - Other
 
