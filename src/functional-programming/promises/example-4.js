@@ -14,3 +14,6 @@ Promise.all([promise1, promise2]).then((result) => {
   console.log(result);
   console.log('Is over');
 });
+
+// [ 'I finished first', 'I finished second' ]
+// Is over

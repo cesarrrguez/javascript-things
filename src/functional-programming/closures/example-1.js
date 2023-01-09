@@ -5,4 +5,4 @@ const sum = (x) => {
 };
 
 const s = sum(1);
-s(2);
+s(2); // 1 2

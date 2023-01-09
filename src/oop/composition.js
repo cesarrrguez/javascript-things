@@ -1,3 +1,5 @@
+/* eslint-disable no-param-reassign */
+
 const eater = (state) => ({
   eat(amount) {
     console.log(`${state.name} is eating.`);

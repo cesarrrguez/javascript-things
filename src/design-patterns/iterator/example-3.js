@@ -1,5 +1,5 @@
-const Iterator = require('./iterator.js');
-require('isomorphic-fetch');
+import Iterator from './iterator.js';
+import 'isomorphic-fetch';
 
 const url = 'https://jsonplaceholder.typicode.com/todos/';
 

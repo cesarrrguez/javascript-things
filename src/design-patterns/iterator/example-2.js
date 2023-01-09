@@ -1,4 +1,4 @@
-const Iterator = require('./iterator.js');
+import Iterator from './iterator.js';
 
 const elements = [() => console.log('Hello'), () => console.log('World')];
 
@@ -8,3 +8,5 @@ while (iterator.hasNext()) {
   const element = iterator.next();
   element();
 }
+// Hello
+// World

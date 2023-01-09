@@ -1,8 +1,10 @@
-const axios = require('axios');
+import axios from 'axios';
+
+const { get } = axios;
 
 const apiCall = async (url, calls = 0) => {
   try {
-    const { data } = await axios.get(url);
+    const { data } = await get(url);
 
     console.log(data);
     return data;

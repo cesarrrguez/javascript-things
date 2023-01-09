@@ -18,4 +18,4 @@ class Customer {
 
 const food = new Food('Hamburger', 20);
 const customer = new Customer('James', food);
-customer.eat();
+customer.eat(); // James is eating the food Hamburger

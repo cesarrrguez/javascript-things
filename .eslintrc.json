@@ -19,6 +19,13 @@
     "no-console": "off",
     "max-classes-per-file": "off",
     "no-plusplus": "off",
-    "no-param-reassign": "warn"
+    "no-param-reassign": "warn",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "always"
+      }
+    ]
   }
 }

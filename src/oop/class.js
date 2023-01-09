@@ -34,3 +34,9 @@ const customer = new Customer('César', 90, () => console.log('I have no money')
 customer.buy(item1);
 customer.buy(item2, () => console.log('Thanks'));
 customer.buy(item3);
+
+// César has buy the item Apple with price 20. Now has 70
+// César has buy the item Orange with price 30. Now has 40
+// Thanks
+// César can´t buy the item Banana with price 50. Now has 40
+// I have no money

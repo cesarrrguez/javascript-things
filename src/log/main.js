@@ -1,4 +1,6 @@
-const { createLogger, transports, format } = require('winston');
+import winston from 'winston';
+
+const { createLogger, transports, format } = winston;
 
 const logger = createLogger({
   transports: [

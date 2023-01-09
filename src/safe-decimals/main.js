@@ -1,4 +1,4 @@
-require('safe-decimals');
+import 'safe-decimals';
 
 const resultSum = 0.1 + 0.2;
 console.log(resultSum); // 0.30000000000000004

@@ -9,4 +9,4 @@ const fib = (n) => {
   return cache[n];
 };
 
-console.log(fib(0));
+console.log(fib(50));

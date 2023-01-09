@@ -1,15 +1,19 @@
-let string = '12345';
-console.log(typeof string); // string
-console.log(string); // 12345
+let value = '500';
 
-string = +string;
-console.log(typeof string); // number
-console.log(string);
+let number = parseInt(value, 10);
+console.log(number, typeof number); // 500 number
 
-string = 'Hello World';
-console.log(typeof string); // string
-console.log(string); // Hello World
+number = Number(value);
+console.log(number, typeof number); // 500 number
 
-string = +string;
-console.log(typeof string); // number
-console.log(string); // NaN
+number = value - 0;
+console.log(number, typeof number); // 500 number
+
+number = +value;
+console.log(number, typeof number); // 500 number
+
+value = 'Hello World';
+console.log(value, typeof value); // Hello World string
+
+number = +value;
+console.log(number, typeof number); // NaN number

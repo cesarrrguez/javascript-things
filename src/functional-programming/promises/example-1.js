@@ -8,3 +8,6 @@ p1.then((x) => x + 5)
   .then(() => Promise.reject('There was an error :('))
   .then(() => console.log('this is not going to be called'))
   .catch((e) => console.log(e));
+
+// Promise { '1' }
+// There was an error :(

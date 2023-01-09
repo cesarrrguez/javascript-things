@@ -1,4 +1,4 @@
-require('isomorphic-fetch');
+import 'isomorphic-fetch';
 
 fetch('https://jsonplaceholder.typicode.com/users')
   .then((response) => response.json())

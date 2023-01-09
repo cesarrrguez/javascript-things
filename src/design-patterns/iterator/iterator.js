@@ -17,4 +17,4 @@ class Iterator {
   }
 }
 
-module.exports = Iterator;
+export default Iterator;

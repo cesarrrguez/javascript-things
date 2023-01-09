@@ -58,16 +58,31 @@ console.log(cut); // [ 3, 3 ]
 numbers.splice(2, 3, 7, 9);
 console.log(numbers); // [ 1, 3, 7, 9, 5 ]
 
+numbers.fill(0, 2, numbers.length);
+console.log(numbers); // [ 1, 3, 0, 0, 0 ]
+
+function sum(a, b, c, d, e) {
+  return a + b + c + d + e;
+}
+
+console.log(sum(...numbers)); // 4
+
 numbers.forEach((x) => console.log(x));
 // 1
 // 3
-// 7
-// 9
-// 5
+// 0
+// 0
+// 0
 
 numbers.forEach((x, index) => console.log(`${x} - ${index}`));
 // 1 - 0
 // 3 - 1
-// 7 - 2
-// 9 - 3
-// 5 - 4
+// 0 - 2
+// 0 - 3
+// 0 - 4
+
+numbers.length = 2;
+console.log(numbers); // [1, 3]
+
+const numberAt = numbers.at(1);
+console.log(numberAt); // 3

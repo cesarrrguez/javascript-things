@@ -1,18 +1,27 @@
-// console.log()
-console.log('Hello World');
-console.log([1, 2, 3]);
-console.log({ x: 1, y: 2, z: 3 });
+// Log
+console.log('Hello World'); // Hello World
+console.log([1, 2, 3]); // [1, 2, 3]
+console.log({ x: 1, y: 2, z: 3 }); // {x: 1, y: 2, z: 3}
 
-// console.table()
+// Table
 console.table({ x: 1, y: 2, z: 3 });
+// ┌─────────┬────────┐
+// │ (index) │ Values │
+// ├─────────┼────────┤
+// │    x    │   1    │
+// │    y    │   2    │
+// │    z    │   3    │
+// └─────────┴────────┘
 
-// console.error()
-console.error('Error founded');
+// Error
+console.error('Error founded'); // Error founded
 
-// console.warn()
-console.warn('Warning!');
+// Warn
+console.warn('Warning!'); // Warning!
 
-// console.group()
+// Group
 console.group('Group');
 console.log('Inside group');
 console.groupEnd('Group');
+// Group
+//   Inside group

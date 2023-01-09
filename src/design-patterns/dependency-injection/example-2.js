@@ -1,4 +1,4 @@
-require('isomorphic-fetch');
+import 'isomorphic-fetch';
 
 class News {
   constructor(url, parameter) {
@@ -26,4 +26,4 @@ class Writer {
 
 const news = new News('https://jsonplaceholder.typicode.com/todos/', 21);
 const writer = new Writer(news);
-writer.show();
+writer.show(); // suscipit repellat esse quibusdam voluptatem incidunt

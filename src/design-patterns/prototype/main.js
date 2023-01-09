@@ -43,4 +43,21 @@ connectionSQLServerPrototype.getConnection();
 const connectionSQLServer = new ConnectionPrototype(connectionSQLServerPrototype);
 
 console.log(connectionSQLServerPrototype);
+// Connection {
+//   driver: 'MySQL',
+//   server: 'localhost',
+//   database: 'testDB',
+//   user: 'sa',
+//   password: '123456',
+//   status: 1
+// }
+
 console.log(connectionSQLServer);
+// Connection {
+//   driver: 'MySQL',
+//   server: 'localhost',
+//   database: 'testDB',
+//   user: 'sa',
+//   password: '123456',
+//   status: 0
+// }
