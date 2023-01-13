@@ -1,4 +1,4 @@
-// Date()
+// Date
 const currentDate = new Date();
 console.log(currentDate);
 

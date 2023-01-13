@@ -8,7 +8,7 @@ const users = [
 ];
 
 const numbersSum = numbers.reduce((acc, item) => acc + item, 0);
-console.log(numbersSum);
+console.log(numbersSum); // 15
 
 const indexedUsers = users.reduce(
   (acc, item) => ({
@@ -18,7 +18,8 @@ const indexedUsers = users.reduce(
   {}
 );
 console.log(indexedUsers.Michael);
+// { firstName: 'Michael', lastName: 'Jones', age: 19 }
 
 const nestedNumbers = [1, [2, 3], 4, [5]];
 const flattenNestedNumbers = nestedNumbers.reduce((acc, item) => acc.concat(item), []);
-console.log(flattenNestedNumbers);
+console.log(flattenNestedNumbers); // [1, 2, 3, 4, 5]

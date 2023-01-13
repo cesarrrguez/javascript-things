@@ -1,6 +1,6 @@
 /* eslint-disable no-await-in-loop */
 
-require('isomorphic-fetch');
+import 'isomorphic-fetch';
 
 async function* request() {
   let i = 1;

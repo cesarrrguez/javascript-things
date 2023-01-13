@@ -8,7 +8,11 @@ const users = [
 ];
 
 const filteredNumbers = numbers.filter((x) => x < 5);
-console.log(filteredNumbers);
+console.log(filteredNumbers); // [1, 2, 3, 4]
 
 const filteredUsers = users.filter((x) => x.age > 30);
 console.log(filteredUsers);
+// [
+//   { firstName: 'John', lastName: 'Smith', age: 35 },
+//   { firstName: 'Olivia', lastName: 'Johnson', age: 43 }
+// ]

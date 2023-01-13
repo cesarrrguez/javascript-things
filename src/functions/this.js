@@ -7,7 +7,7 @@ const obj = {
   },
 };
 
-console.log('environment this', this); // environment this {}
+console.log('environment this', this); // environment this undefined
 
 obj.normalFunction();
 // normal function {
@@ -15,4 +15,4 @@ obj.normalFunction();
 //   arrowFunction: [Function: arrowFunction]
 // }
 
-obj.arrowFunction(); // arrow function {}
+obj.arrowFunction(); // arrow function undefined

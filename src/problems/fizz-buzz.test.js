@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 
-const fizzBuzz = require('./fizz-buzz');
+import fizzBuzz from './fizz-buzz.js';
 
 describe('fizzbuzz', () => {
   test('should print an error message if the argument is not a number', () => {
