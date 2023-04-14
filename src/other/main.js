@@ -1,6 +1,8 @@
+/* eslint-disable no-eval */
+/* eslint-disable no-restricted-syntax */
+/* eslint-disable guard-for-in */
 /* eslint-disable func-names */
 /* eslint-disable no-extend-native */
-/* eslint-disable prefer-rest-params */
 
 // Ternary operator
 const x = 5;
@@ -26,34 +28,6 @@ console.log(user.name); // James Brown
 const property = 'name';
 console.log(user[property]); // James Brown
 
-// Functions without parameters
-function add() {
-  let result = 0;
-  console.log(typeof arguments); // object
-  for (let i = 0; i < arguments.length; i++) {
-    if (typeof arguments[i] === 'number') {
-      result += arguments[i];
-    } else if (typeof arguments[i] === 'function') {
-      arguments[i]();
-    }
-  }
-  return result;
-}
-
-const addResult = add(
-  1,
-  4,
-  5,
-  { something: 90 },
-  () => {
-    console.log('Hello!');
-  },
-  () => {
-    console.log('GoodBye!');
-  }
-);
-console.log(addResult); // 10
-
 // Extension methods with prototype
 Array.prototype.show = function () {
   for (let i = 0; i < this.length; i++) {
@@ -68,3 +42,23 @@ numbers.show();
 // 1
 // 5
 // 1
+
+// Clone an object
+const beer = { name: 'Tremens', brand: 'Delirium' };
+// const beer2 = beer; // This is not a copy, is a reference to the other object
+const beer2 = JSON.parse(JSON.stringify(beer));
+beer2.name = 'Red';
+
+console.log(beer.name); // Tremens
+console.log(beer2.name); // Red
+
+// For .. in
+for (const item in beer) {
+  console.log(`${item}: ${beer[item]}`);
+}
+// name: Tremens
+// brand: Delirium
+
+// Eval
+const code = "console.log('hello');";
+eval(code); // hello
