@@ -14,7 +14,7 @@ class LinkedList {
   append(value) {
     const newNode = new Node(value);
 
-    if(!this.head) {
+    if (!this.head) {
       this.head = newNode;
     } else {
       this.tail.next = newNode;
@@ -26,7 +26,7 @@ class LinkedList {
   traverse(callback){
     let currentNode = this.head;
 
-    while(currentNode != null) {
+    while (currentNode != null) {
       callback(currentNode);
       currentNode = currentNode.next;
     }
